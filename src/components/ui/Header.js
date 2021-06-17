@@ -1,17 +1,17 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import logo from '../../img/logo.png'
 import Search from './Search'
 import LoginRegister from './LoginRegister'
 import MiniProfile from '../MiniProfile'
+import logo from '../../img/logo.png'
+import './Header.css'
 const Header = ({ isLogedin}) => {
     return (
         <nav>
-            <div>
+            <div className="logo">
             <Link to='/'><img className="logo"
                 src={logo} 
                 alt="logo"
-                style={{width: "70px", height: "70px"}}
                 /></Link>
             </div>
             <Search />

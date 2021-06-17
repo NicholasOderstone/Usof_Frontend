@@ -14,8 +14,7 @@ const Search = ({ getQuery }) => {
     <div className="search">
       <div className="select_search_type">
       <select name="search_type" id="search_type" className="searchSelect">
-          <option selected disabled>Choose an option</option>
-          <option value="1">Posts</option>
+          <option selected value="1">Posts</option>
           <option value="2">Users</option>
           <option value="3">Categories</option>
       </select>
