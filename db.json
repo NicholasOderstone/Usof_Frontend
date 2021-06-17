@@ -1,0 +1,27 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "content": "Test post 1",
+      "user_id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "post_id": 1,
+      "user_id": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Test User"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

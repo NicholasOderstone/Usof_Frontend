@@ -13,7 +13,7 @@ import Main from './components/Main'
 function App() {
   return (
     <Router>
-    	<Header/> 
+    	<Header isLogedin={false}/> 
 		<Switch>
 			<Route path="/" exact component={Main}/>
 

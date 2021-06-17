@@ -1,20 +1,35 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import Search from './Search'
-import MiniProfile from './MiniProfile'
 import logo from '../../img/logo.png'
-const Header = () => {
+import Search from './Search'
+import LoginRegister from './LoginRegister'
+import MiniProfile from '../MiniProfile'
+const Header = ({ isLogedin}) => {
     return (
-        <header className="header">
+        <nav>
+            <div>
             <Link to='/'><img className="logo"
                 src={logo} 
                 alt="logo"
-                style={{width: "100px", height: "100px"}}
-                > 
-            </img></Link>
-            <Search/>
-            <MiniProfile login="Login" role="Role" picture="https://img.icons8.com/wired/64/000000/circled-user.png"/>
-        </header>
+                style={{width: "70px", height: "70px"}}
+                /></Link>
+            </div>
+            <Search />
+            <ul>
+                <li>
+                    <Link to="/posts">Posts</Link>
+                </li>
+                <li>
+                    <Link to="/categories">Categories</Link>
+                </li>
+                <li>
+                    <Link to="/users">Users</Link>
+                </li>
+            </ul>
+            
+            {isLogedin ? <MiniProfile /> : <LoginRegister />}
+            
+        </nav>
     )
 }
 

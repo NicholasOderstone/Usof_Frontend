@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-
+import {ReactComponent as ReactLogo} from '../../img/search.svg'
+import './Search.css'
 const Search = ({ getQuery }) => {
   const [text, setText] = useState('')
 
@@ -9,20 +10,23 @@ const Search = ({ getQuery }) => {
   }
 
   return (
-
-      <form className='search'>
-        <input
-          type='text'
-          className='search-term'
-          placeholder='Search'
-          value={text}
-          onChange={(e) => onChange(e.target.value)}
-        />
-
-        <button type='submit' className='searchButton'>
-        </button>
-      </form>
-    
+    <div className="wrap">
+    <div className="search">
+      <div className="select_search_type">
+      <select name="search_type" id="search_type" className="searchSelect">
+          <option selected disabled>Choose an option</option>
+          <option value="1">Posts</option>
+          <option value="2">Users</option>
+          <option value="3">Categories</option>
+      </select>
+      </div>
+      
+        <input type="text" className="searchTerm" placeholder="Search" />
+        <button type="submit" className="searchButton">
+          <ReactLogo />
+      </button>
+    </div>
+    </div>
   )
 }
 
