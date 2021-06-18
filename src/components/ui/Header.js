@@ -15,6 +15,7 @@ const Header = ({ isLogedin}) => {
                 /></Link>
             </div>
             <Search />
+            
             <ul>
                 <li>
                     <Link to="/posts">Posts</Link>
