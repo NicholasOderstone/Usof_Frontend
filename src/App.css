@@ -35,31 +35,31 @@ input, div, textarea{
 }
 
 
-.Post{
+.post{
     width: 70%;
     margin: 0 auto;
     transition: all 0.5s;
 
 }
 
-.Post li{
+.post li{
     margin: 10px 1% 10px 1%;
     list-style-type: none;
 }
 
-.Post a{
+.post a{
     font-size: 18px;
 }
 
-.Post h1{
+.post h1{
     margin-left: 0;
 }
 
-.Post p{
+.post p{
     margin: 0 10px 0;
 }
 
-.Post textarea:focus{
+.post textarea:focus{
     border: 2px solid #000;
     outline: none;
 }
