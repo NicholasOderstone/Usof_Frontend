@@ -8,16 +8,19 @@ import {
 } from "react-router-dom";
 
 
-import Header from './components/ui/Header'
-import Main from './components/Main'
-import PostPage from './components/PostPage'
+import Header from './components/ui/js/Header'
+import Main from './components/js/Main'
+import PostPage from './components/js/PostPage'
+import Posts from './components/js/Posts'
 function App() {
   return (
     <Router>
-    	<Header isLogedin={false}/> 
+    	<Header isLogedin={false}/>
 		<Switch>
 			<Route path="/" exact component={Main}/>
       <Route path="/post/:id" render={({match}) => (  <PostPage post_id={match.params.id} />)}/>
+      <Route path="/posts/" component={Posts} />
+      <Route path="/posts/:search"  render={({match}) => (  <Posts search={match.params.search} />)}/>
 		</Switch>
     </Router>
   );

@@ -1,0 +1,110 @@
+form {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+  }
+  
+.searchTerm, .searchTerm:hover, .searchTerm:focus{
+width: 100%;
+height: 36px;
+border: 2px solid #2D1E2F;
+border-right: none;
+padding: 5px;
+outline: none;
+color: black;
+font-size: 15px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+.searchButton {
+height: 36px;
+width: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+outline: none;
+border: 2px solid #2D1E2F;
+border-left: none;
+background: #F7B32B;
+margin: 0px;
+color: #fff;
+border-radius: 0 5px 5px 0;
+cursor: pointer;
+font-size: 15px;
+transition: 0.3s;
+}
+
+.searchButton:hover {
+  background-color: #EEA41B;
+}
+
+.searchSelect {
+  width: 150px;
+  transition: 0.3s;
+}  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 40%;
+  }
+  /* Reset Select */
+  select {
+    border: 0 !important;
+    outline: none !important;
+    background: #F7B32B;
+    background-image: none;
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select */
+  .select_search_type {
+    /* position: relative; */
+    display: flex;
+    width: 105px;
+    height: 36px;
+    line-height: 3;
+    background: #2D1E2F;
+    /* overflow: hidden; */
+    border: 2px solid #2D1E2F;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    transition: .25s;
+  }
+  select {
+    flex: 1;
+    padding: 0 .5em;
+    color: black;
+    cursor: pointer;
+  }
+  .searchSelect:hover {
+    /* box-shadow: 0 0 10px 100px #1882A8 inset; */
+    background-color: #EEA41B; 
+  }
+  /* Arrow */
+/* .select_search_type::after {
+  content: '\25BC';
+  position: absolute;
+  top: -8px;
+  right: 0;
+  padding: 1px 5px;
+  background: #F7B32B;
+  color: black;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s;
+}
+.select_search_type:hover::after {
+  background-color: #EEA41B; 
+} */
+
+  /* Transition
+  .select_search_type:hover::after {
+    color: rgb(84, 84, 84);
+  } */

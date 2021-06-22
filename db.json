@@ -3,8 +3,9 @@
     {
       "id": 1,
       "title": "json-server",
-      "content": "Test post 1",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim lacus sem, a rutrum augue sodales vitae. Cras finibus ac nisi luctus placerat. Aliquam ullamcorper ligula vel libero venenatis ornare. Curabitur dapibus tincidunt eros ac porta. Aliquam vel sem tortor. Sed et nunc erat. Donec rhoncus ultricies porttitor. Aliquam ut.",
       "user_id": 1,
+      "rating": 1,
       "categories": [
         {
           "id": 2,
@@ -14,21 +15,154 @@
           "id": 3,
           "title": "server"
         }
-      ]
+      ],
+      "created_at": "2015-10-28 19:18:44"
+    },
+    {
+      "id": 2,
+      "title": "One more Test post",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim lacus sem, a rutrum augue sodales vitae. Cras finibus ac nisi luctus placerat. Aliquam ullamcorper ligula vel libero venenatis ornare. Curabitur dapibus tincidunt eros ac porta. Aliquam vel sem tortor. Sed et nunc erat. Donec rhoncus ultricies porttitor. Aliquam ut.",
+      "user_id": 2,
+      "rating": 1,
+      "categories": [
+        {
+          "id": 1,
+          "title": "test category"
+        },
+        {
+          "id": 3,
+          "title": "server"
+        }
+      ],
+      "created_at": "2021-06-21 19:18:45"
+    },
+    {
+      "id": 3,
+      "title": "json-server",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim lacus sem, a rutrum augue sodales vitae. Cras finibus ac nisi luctus placerat. Aliquam ullamcorper ligula vel libero venenatis ornare. Curabitur dapibus tincidunt eros ac porta. Aliquam vel sem tortor. Sed et nunc erat. Donec rhoncus ultricies porttitor. Aliquam ut.",
+      "user_id": 1,
+      "rating": 1,
+      "categories": [
+        {
+          "id": 2,
+          "title": "json"
+        },
+        {
+          "id": 3,
+          "title": "server"
+        }
+      ],
+      "created_at": "2015-10-28 19:18:44"
+    },
+    {
+      "id": 4,
+      "title": "json-server",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim lacus sem, a rutrum augue sodales vitae. Cras finibus ac nisi luctus placerat. Aliquam ullamcorper ligula vel libero venenatis ornare. Curabitur dapibus tincidunt eros ac porta. Aliquam vel sem tortor. Sed et nunc erat. Donec rhoncus ultricies porttitor. Aliquam ut.",
+      "user_id": 1,
+      "rating": 1,
+      "categories": [
+        {
+          "id": 2,
+          "title": "json"
+        },
+        {
+          "id": 3,
+          "title": "server"
+        }
+      ],
+      "created_at": "2015-10-28 19:18:44"
+    },
+    {
+      "id": 5,
+      "title": "json-server",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim lacus sem, a rutrum augue sodales vitae. Cras finibus ac nisi luctus placerat. Aliquam ullamcorper ligula vel libero venenatis ornare. Curabitur dapibus tincidunt eros ac porta. Aliquam vel sem tortor. Sed et nunc erat. Donec rhoncus ultricies porttitor. Aliquam ut.",
+      "user_id": 1,
+      "rating": 1,
+      "categories": [
+        {
+          "id": 2,
+          "title": "json"
+        },
+        {
+          "id": 3,
+          "title": "server"
+        }
+      ],
+      "created_at": "2015-10-28 19:18:44"
+    },
+    {
+      "id": 6,
+      "title": "json-server",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim lacus sem, a rutrum augue sodales vitae. Cras finibus ac nisi luctus placerat. Aliquam ullamcorper ligula vel libero venenatis ornare. Curabitur dapibus tincidunt eros ac porta. Aliquam vel sem tortor. Sed et nunc erat. Donec rhoncus ultricies porttitor. Aliquam ut.",
+      "user_id": 1,
+      "rating": 1,
+      "categories": [
+        {
+          "id": 2,
+          "title": "json"
+        },
+        {
+          "id": 3,
+          "title": "server"
+        }
+      ],
+      "created_at": "2015-10-28 19:18:44"
+    },
+    {
+      "id": 7,
+      "title": "json-server",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim lacus sem, a rutrum augue sodales vitae. Cras finibus ac nisi luctus placerat. Aliquam ullamcorper ligula vel libero venenatis ornare. Curabitur dapibus tincidunt eros ac porta. Aliquam vel sem tortor. Sed et nunc erat. Donec rhoncus ultricies porttitor. Aliquam ut.",
+      "user_id": 1,
+      "rating": 1,
+      "categories": [
+        {
+          "id": 2,
+          "title": "json"
+        },
+        {
+          "id": 3,
+          "title": "server"
+        }
+      ],
+      "created_at": "2015-10-28 19:18:44"
     }
   ],
   "comments": [
     {
       "id": 1,
-      "content": "some comment",
+      "content": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
       "post_id": 1,
-      "user_id": 1
+      "user_id": 1,
+      "rating": 1,
+      "created_at": "2015-10-28 19:18:44"
+    },
+    {
+      "id": 2,
+      "content": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "post_id": 2,
+      "user_id": 1,
+      "rating": 1,
+      "created_at": "2015-10-28 19:18:43"
+    },
+    {
+      "id": 3,
+      "content": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "post_id": 1,
+      "user_id": 2,
+      "rating": 10,
+      "created_at": "2015-10-28 19:18:45"
     }
   ],
   "users": [
     {
       "id": 1,
-      "name": "Test User"
+      "name": "Test User",
+      "rating": 3
+    },
+    {
+      "id": 2,
+      "name": "Nicholas",
+      "rating": 10
     }
   ],
   "categories": [
@@ -46,6 +180,16 @@
       "id": 3,
       "title": "server",
       "description": "Test description"
+    }
+  ],
+
+  "likes": [
+    {
+      "id": 1,
+      "entity": "post",
+      "entity_id": 1,
+      "user_id": 1,
+      "created_at": "2015-10-28 19:18:44"
     }
   ],
   "profile": {

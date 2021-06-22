@@ -2,7 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 body{
     font-weight: 200;
-    background-color: rgb(250, 250, 250);
+    background-color: white;
+    padding: 0;
 }
 
 * {
@@ -32,52 +33,6 @@ input, div, textarea{
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-}
-
-
-.post{
-    width: 70%;
-    margin: 0 auto;
-    transition: all 0.5s;
-
-}
-
-.post li{
-    margin: 10px 1% 10px 1%;
-    list-style-type: none;
-}
-
-.post a{
-    font-size: 18px;
-}
-
-.post h1{
-    margin-left: 0;
-}
-
-.post p{
-    margin: 0 10px 0;
-}
-
-.post textarea:focus{
-    border: 2px solid #000;
-    outline: none;
-}
-
-.posts{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-}
-
-.posts li{
-    width: 55%;
-    padding: 15px;
-    margin: 25px;
-    box-shadow: -7px 16px 17px -2px rgba(34, 60, 80, 0.2);
-    background-color: rgb(236, 240, 250);
 }
 
 
